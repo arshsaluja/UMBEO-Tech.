@@ -1,10 +1,10 @@
 #include <EasyButton.h>
 #include "FirebaseESP8266.h"
 #include <ESP8266WiFi.h>
-#define FIREBASE_HOST "homeautomation-edf6b-default-rtdb.firebaseio.com"                     //Your Firebase Project URL goes here without "http:" , "\" and "/"
-#define FIREBASE_AUTH "HAgCHKBNevdYrrokmDIMy1d1MPPGUM82Cfm2ck39"       //Your Firebase Database Secret goes here
-#define WIFI_SSID "Boogie"                                               //your WiFi SSID for which yout NodeMCU connects
-#define WIFI_PASSWORD "Aaaaaa11"         
+#define FIREBASE_HOST "_"                     //Your Firebase Project URL goes here without "http:" , "\" and "/"
+#define FIREBASE_AUTH "_"       //Your Firebase Database Secret goes here
+#define WIFI_SSID "_"                                               //your WiFi SSID for which yout NodeMCU connects
+#define WIFI_PASSWORD "_"         
 
 // Arduino pin where the button is connected to.
 #define BUTTON_PIN 0
